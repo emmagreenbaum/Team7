@@ -66,7 +66,7 @@ xxx
 Web-based app
 
 # Powerpoint 
-Here is the link to our PowerPoint. This presentation outlines the main objectives of our project, as well as how we approached each step of the project
+https://docs.google.com/presentation/d/1WeVVeRmvnjZvtfD_FetAdAKseBGUjY-1srH5XmqMvng/edit?usp=sharing
 
 # Final Report 
 Here is the link to our final report. Happy reading! 
