@@ -56,7 +56,7 @@ We first created a Dimensional Model that includes fact & dimension tables, this
 
 ## ETL 
 
-Extract
+Extract: 
 We extracted the JSON files in chunks to allow for faster processing and helped load the data for transformation. The code can be found in the data sourcing folder. 
 
 Transform 
