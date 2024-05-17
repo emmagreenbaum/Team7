@@ -1,6 +1,6 @@
 
 
-CREATE  TABLE trade_project.`currency dimension` ( 
+CREATE  TABLE trade_project.`currency_dimension` ( 
 	currency_id          INT    NOT NULL   PRIMARY KEY,
 	currencycode         CHAR(3)       
  ) engine=InnoDB;
@@ -47,7 +47,8 @@ CREATE  TABLE trade_project.date_dimension (
 	date_id              INT    NOT NULL   PRIMARY KEY,
 	tradedate            DATE       ,
 	transacttime         TIME       ,
-	maturitymonthyear    LONG VARCHAR       
+	maturitymonthyear    LONG VARCHAR 
+	date_yyy			 DATE      
  ) engine=InnoDB;
 
 CREATE  TABLE trade_project.exchange_dimension ( 
