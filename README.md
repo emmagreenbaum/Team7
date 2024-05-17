@@ -54,6 +54,14 @@ We first created a Dimensional Model that includes fact & dimension tables, this
 
 ![trade_model](https://github.com/emmagreenbaum/Team7/assets/159954926/3559e4ef-dd75-447e-98af-4ae95e2b694a)
 
+## ETL 
+
+Extract
+We extracted the JSON files in chunks to allow for faster processing and helped load the data for transformation. The code can be found in the data sourcing folder. 
+
+Transform 
+
+Load
 
 # Data Tools 
 ## Storage
