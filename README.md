@@ -65,8 +65,11 @@ Load
 
 # Data Tools 
 Dimensional Model: DB schema
+
 Storage: Azure Blob 
+
 Database: Snowflake 
+
 Transformation: dbt (data build tool)
 
 # Powerpoint 
