@@ -2,7 +2,7 @@
 
 CREATE  TABLE trade_project.`currency_dimension` ( 
 	currency_id          INT    NOT NULL   PRIMARY KEY,
-	currencycode         CHAR(3)       
+	currency_code         CHAR(3)       
  ) engine=InnoDB;
 
 CREATE  TABLE trade_project.product_dimension ( 
@@ -53,8 +53,8 @@ CREATE  TABLE trade_project.date_dimension (
 
 CREATE  TABLE trade_project.exchange_dimension ( 
 	exchange_id          INT    NOT NULL   PRIMARY KEY,
-	securityexchange     LONG VARCHAR       ,
-	marketsegmentid      LONG VARCHAR       
+	security_exchange     LONG VARCHAR       ,
+	market_segment_id      LONG VARCHAR       
  ) engine=InnoDB;
 
 CREATE  TABLE trade_project.security_dimension ( 
