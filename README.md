@@ -59,9 +59,9 @@ We first created a Dimensional Model that includes fact & dimension tables, this
 Extract: 
 We extracted the JSON files in chunks to allow for faster processing and helped load the data for transformation. The code can be found in the data sourcing folder. 
 
-Transform 
+Transform:For the transformation process, we utilized dbt (data build tool) to manage and execute our SQL transformations. dbt allowed us to define models for cleaning and standardizing the raw data. We created modular SQL queries to perform these transformations, ensuring data integrity through testing and documentation. By running dbt commands, we applied these transformations to our raw data, preparing it for loading.
 
-Load
+Load:The loading process involved moving the transformed data into Snowflake. We configured our Snowflake connection in dbt and executed the dbt models to load the data into Snowflake tables. This included handling incremental loads for efficiency, ensuring that only new or changed data was processed in subsequent runs. This setup optimized the storage and accessibility of our data in Snowflake, making it ready for analysis and reporting.
 
 # Data Tools 
 Dimensional Model: DB schema
