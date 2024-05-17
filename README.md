@@ -64,17 +64,7 @@ Transform
 Load
 
 # Data Tools 
-## Storage
-xxx
-
-## Processing
-xxx
-
-## Orchestration 
-xxx
-
-# Interface
-Web-based app
+The tools that we used were DB schema for the dimensional model and Snowflake for transformation. 
 
 # Powerpoint 
 https://docs.google.com/presentation/d/1WeVVeRmvnjZvtfD_FetAdAKseBGUjY-1srH5XmqMvng/edit?usp=sharing
