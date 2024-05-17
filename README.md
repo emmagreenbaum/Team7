@@ -50,8 +50,10 @@ xxx
 Attach a link to the data dictionary and explain the importance of it
 
 # Methods
-We first created a Dimensional Model that includes fact & dimension tables, this model will help us understand the relationship between the different columns. 
+We first created a Dimensional Model that includes fact & dimension tables, this model will help us understand the relationship between the different columns. After performing transformation on the data, we updated the model with the new column we created which is date_yyy. 
+
 ![trade_model](https://github.com/emmagreenbaum/Team7/assets/159954926/3559e4ef-dd75-447e-98af-4ae95e2b694a)
+
 
 # Data Tools 
 ## Storage
