@@ -64,7 +64,10 @@ Transform
 Load
 
 # Data Tools 
-The tools that we used were DB schema for the dimensional model and Snowflake for transformation. 
+Dimensional Model: DB schema
+Storage: Azure Blob 
+Database: Snowflake 
+Transformation: dbt (data build tool)
 
 # Powerpoint 
 https://docs.google.com/presentation/d/1WeVVeRmvnjZvtfD_FetAdAKseBGUjY-1srH5XmqMvng/edit?usp=sharing
