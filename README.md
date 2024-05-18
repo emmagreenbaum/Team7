@@ -44,7 +44,7 @@ Risk managers, financial analysts, traders, and market researchers would all be 
 
 # Data 
 ## Data Sources 
-xxx
+This is the [link](https://datamine.cmegroup.com/#/query-product/details/query_instrument_record) to the data source - we have only extracted the data for one month and analyzed the level1 trades and general attributes.
 
 ## Metadata
 Attach a link to the data dictionary and explain the importance of it
@@ -59,9 +59,9 @@ We first created a Dimensional Model that includes fact & dimension tables, this
 Extract: 
 We extracted the JSON files in chunks to allow for faster processing and helped load the data for transformation. The code can be found in the data sourcing folder. 
 
-Transform:For the transformation process, we utilized dbt (data build tool) to manage and execute our SQL transformations. dbt allowed us to define models for cleaning and standardizing the raw data. We created modular SQL queries to perform these transformations, ensuring data integrity through testing and documentation. By running dbt commands, we applied these transformations to our raw data, preparing it for loading.
+Transform: For the transformation process, we utilized dbt (data build tool) to manage and execute our SQL transformations. dbt allowed us to define models for cleaning and standardizing the raw data. We created modular SQL queries to perform these transformations, ensuring data integrity through testing and documentation. By running dbt commands, we applied these transformations to our raw data, preparing it for loading.
 
-Load:The loading process involved moving the transformed data into Snowflake. We configured our Snowflake connection in dbt and executed the dbt models to load the data into Snowflake tables. This included handling incremental loads for efficiency, ensuring that only new or changed data was processed in subsequent runs. This setup optimized the storage and accessibility of our data in Snowflake, making it ready for analysis and reporting.
+Load: The loading process involved moving the transformed data into Snowflake. We configured our Snowflake connection in dbt and executed the dbt models to load the data into Snowflake tables. This included handling incremental loads for efficiency, and ensuring that only new or changed data was processed in subsequent runs. This setup optimized the storage and accessibility of our data in Snowflake, making it ready for analysis and reporting.
 
 # Data Tools 
 Dimensional Model: DB schema
@@ -71,6 +71,12 @@ Storage: Azure Blob
 Database: Snowflake 
 
 Transformation: dbt (data build tool)
+
+# Visualizations
+
+Here are some of the visualizations we made! 
+
+
 
 # Powerpoint 
 https://docs.google.com/presentation/d/1WeVVeRmvnjZvtfD_FetAdAKseBGUjY-1srH5XmqMvng/edit?usp=sharing
