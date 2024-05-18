@@ -18,6 +18,8 @@ Requirements:
 * Manage reference data (trading symbols, market codes, etc.)
 * Monitor data and set up alerts to track system performance metrics
 
+In an ideal world, we would be able to go through all of these requirements, but because of our time constraints, we focused on the first requirement.
+
 ## Business Impact 
 Setting up a data warehouse for CME data and reference data is a major project with significant benefits and considerations:
 
@@ -47,7 +49,7 @@ Risk managers, financial analysts, traders, and market researchers would all be 
 This is the [link](https://datamine.cmegroup.com/#/query-product/details/query_instrument_record) to the data source - we have only extracted the data for one month and analyzed the level1 trades and general attributes.
 
 ## Metadata
-Attach a link to the data dictionary and explain the importance of it
+This is the link to the data dictionary: [data dictionary](https://datamine.cmegroup.com/#/query-product/details/query_order_record)
 
 # Methods
 We first created a Dimensional Model that includes fact & dimension tables, this model will help us understand the relationship between the different columns. After performing transformation on the data, we updated the model with the new column we created which is date_yyy. 
@@ -74,13 +76,13 @@ Transformation: dbt (data build tool)
 
 # Visualizations
 
-Here are some of the visualizations we made! 
+Here are some of the visualizations we made! You can check out more of them on our [Tableau Public Server](https://public.tableau.com/app/profile/nidhi.shah7928/viz/CMEdata_17159993362020/NumberofTradesineachSecurityExchange?publish=yes)
 
+![Tableau](barchart.png)
 
+![Tableau](piechart.png)
 
-# Powerpoint 
-https://docs.google.com/presentation/d/1WeVVeRmvnjZvtfD_FetAdAKseBGUjY-1srH5XmqMvng/edit?usp=sharing
+![Tableau](size.png)
 
-# Final Report 
-Here is the link to our final report. Happy reading! 
-
+# Presentation
+We put together an 8-minute presentation going over the foundation of our project and the next steps we were going to take at the time of the presentation. You can find the deck [here](https://docs.google.com/presentation/d/1WeVVeRmvnjZvtfD_FetAdAKseBGUjY-1srH5XmqMvng/edit?usp=sharing)
